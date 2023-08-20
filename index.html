@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    .text-custom {
+      /* font-size: 48px; */
+      background: linear-gradient(to bottom right, #02f37d, #2b75d6);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  </style>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+  
+  <!-- Title -->
+  <title>NYLI Printing</title>
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-sticky navbar-dark">
+    <div class="container">
+      <a href="./index.html" class="navbar-brand"><img src="./assets/images/logo.png" alt="Logo"></a>
+  
+      <ul class="navbar-nav navbar-nav-secondary order-lg-3">
+        <li class="nav-item">
+          <a class="nav-link nav-icon" data-bs-toggle="offcanvas" href="#offcanvasNav" role="button"
+            aria-controls="offcanvasNav">
+            <span class="bi bi-list"></span>
+          </a>
+        </li>
+      </ul>
+  
+      <!-- mobile user menu -->
+    </div>
+  </nav>
+  
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavLabel">Menu</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="nav nav-minimal" id="toc-nav">
+        <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="offcanvas-footer">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="" class="text-muted text-primary-hover"><i
+              class="bi bi-facebook fs-lg"></i></a></li>
+        <li class="list-inline-item ms-1"><a href="https://instagram.com/nyliprinting" target="_blank" class="text-muted text-primary-hover"><i
+              class="bi bi-instagram fs-lg"></i></a></li>
+        <li class="list-inline-item ms-1"><a href="" class="text-muted text-primary-hover"><i
+              class="fa-brands fa-tiktok fs-lg"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+  <div class="offcanvas-wrap">
+    <div data-center-top="@class:inverted bg-color-active;" data-bottom-bottom="@class:inverted bg-color-active;"
+      data-edge-strategy="reset">
+      <span class="bg-color bg-black"></span>
+
+      <!-- hero -->
+      <section class="overflow-hidden bg-black inverted" id="hero">
+        <div class="d-flex flex-column container py-20 min-vh-100 level-1">
+          <div class="row align-items-center justify-content-center justify-content-lg-end my-auto">
+            <div class="col-md-8 col-lg-5 text-center text-lg-start">
+              <!-- <span class="badge bg-opaque-yellow text-yellow rounded-pill">Extensive Interactions</span>
+              <h1 class="display-2 fw-bold lh-sm my-2 my-xl-4">High-fidelity interactive design.</h1>
+              <a href="" class="btn btn-with-icon btn-yellow rounded-pill">Get Started <i
+                  class="bi bi-arrow-right"></i></a> -->
+
+                <h1 class="fw-light text-custom">Unleash Your Style with Custom-Printed <span class="fw-bold"
+                    data-typed='{"strings": ["T-Shirts", "Hoodies"]}'></span></h1>
+                <p class="lead text-secondary mb-4">
+                  Turning Your Ideas into Wearable Art: Our custom printing platform brings your imagination to life, 
+                  infusing vibrant colors and intricate designs onto high-quality apparel.
+                </p>
+                <div class="d-grid">
+                  <a href="#about" class="btn btn-with-icon rounded-pill" 
+                    style=" background: linear-gradient(to bottom right, #02f37d, #2b75d6);">
+                    Unlock Your Imagination <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid back back-background">
+          <div class="row h-100">
+            <div class="col-lg-6" data-aos="fade-in">
+              <figure class="background" style="background-image: url('./assets/images/main.jpeg')"
+                data-top-top="transform: translateY(0%);" data-top-bottom="transform: translateY(10%);"></figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- accordion -->
+      <section class="py-15 py-xl-20" id="about">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10 mb-3">
+              <h2 class="fw-bold text-custom">Welcome to NYLI Printing</h2>
+            </div>
+            <div class="col-lg-10">
+              One-stop destination for high-quality custom t-shirt and hoodie printing services! 
+              We take pride in offering a seamless printing experience that brings your ideas to life on comfortable and stylish apparel. 
+              With a passion for creativity and a commitment to exceptional customer service, we strive to exceed your expectations with every order.
+              <br><br>
+              Established in 1948, our journey began with a vision to revolutionize the world of custom apparel printing. 
+              Over the years, we have honed our craft and built a reputation for delivering top-notch products that reflect the unique style and 
+              personality of our customers.
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- features -->
+      <section class="inverted mx-xl-3 overflow-hidden">
+        <div class="d-flex flex-column container py-15 py-xl-20 min-vh-75 level-1">
+          <div class="row mb-8">
+            <div class="col text-center">
+              <h2 class="fs-1 fw-bold">Even more great stuff.</h2>
+            </div>
+          </div>
+          <div class="row g-4 g-lg-5 justify-content-center align-items-center mt-auto">
+            <div class="col-lg-3 text-center">
+              <h4 class="text-muted lh-sm fw-normal"><span class="text-white">Graphic Design Support</span>
+              </h4>
+            </div>
+            <div class="col-4 col-md-2 col-lg-1">
+              <img class="img-fluid px-2 px-lg-0" src="./assets/images/svg/divider.svg" alt="Divider">
+            </div>
+            <div class="col-lg-3 text-center">
+              <h4 class="text-muted lh-sm fw-normal"><span class="text-white">Premium Quality Materials</span></h4>
+            </div>
+            <div class="col-4 col-md-2 col-lg-1">
+              <img class="img-fluid px-2 px-lg-0" src="./assets/images/svg/divider.svg" alt="Divider">
+            </div>
+            <div class="col-lg-3 text-center">
+              <h4 class="text-muted lh-sm fw-normal"><span class="text-white">Quick Turnaround Times</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <figure class="background background-overlay" style="background-image: url('./assets/images/bg.png')">
+        </figure>
+      </section>
+
+    </div>
+
+
+    <!-- image frame -->
+    <section class="pt-15 pb-10">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="frame">
+              <img src="./assets/images/hoodies.jpeg" class="img-fluid" alt="">
+              <span></span>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-5">
+            <h2 class="fw-bold text-custom">Express your unique style!</h2>
+            <p class="text-secondary">
+              With personalized t-shirts, cozy hoodies, and an array of other customizable clothing options.
+              <br>
+              Our talented designers and skilled printing experts work tirelessly to ensure that each garment we produce is a masterpiece. 
+              Whether it's a fun and trendy design, a corporate logo, or a heartfelt message, we bring your ideas to life with precision and attention to detail.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+    <section class="py-0" id="services">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-4 text-center" data-aos="fade-up">
+            <i class="fas fa-tshirt fa-3x text-custom"></i>
+            <h4 class="fs-5 mt-4">Custom T-Shirt Printing</h4>
+            <p class="text-secondary mx-2">Express yourself with personalized t-shirts that showcase your creativity. 
+              We use the latest printing techniques and high-quality materials to produce vibrant and long-lasting designs that stand out.</p>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-vest fa-3x text-custom"></i>
+            <h4 class="fs-5 mt-4">Custom Hoodie Printing</h4>
+            <p class="text-secondary mx-2">Stay cozy and stylish with our custom hoodie printing services. 
+              Add your favorite graphics, quotes, or logos to create a hoodie that keeps you warm while making a statement.</p>
+          </div>
+          <div class="col-md-6 col-lg-4 text-center" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-layers fs-1 text-custom"></i>
+            <h4 class="fs-5 mt-4">Bulk Orders</h4>
+            <p class="text-secondary mx-2">
+              Need custom apparel for your team, event, or business? Our bulk ordering option makes it easy and cost-effective to 
+              outfit your group in style.</p>
+          </div>
+        </div>      
+      </div>
+    </section>
+
+
+    <!-- features -->
+    <section class="py-10">
+      <div class="container">
+        <div class="row justify-content-center mb-10">
+          <div class="col-lg-6 text-center">
+            <h2 class="fw-light">Crafting Your Vision with <span class="fw-bold text-custom">Precision, Perfection & Passion.</span></h2>
+          </div>
+        </div>
+        <div class="row g-3 g-xl-5">
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="card bg-opaque-green">
+              <div class="card-footer">
+                <h3 class="fs-5 text-green">Graphic Design Support</h3>
+                <p class="text-secondary">
+                  Designs That Speak: Our skilled artists turn ideas into visuals that pop, ensuring your apparel stands out in the crowd and tells your story.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card bg-opaque-green">
+              <div class="card-footer">
+                <h3 class="fs-5 text-green">Premium Quality Materials</h3>
+                <p class="text-secondary">Luxury in Every Stitch: We curate materials that match your imagination, resulting in garments that exude comfort and longevity.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card bg-opaque-green">
+              <div class="card-footer">
+                <h3 class="fs-5 text-green">Quick Turnaround Times</h3>
+                <p class="text-secondary">
+                  Swift Magic: From concept to reality, we work at lightning speed without compromising on the precision your designs deserve.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- carousel -->
+    <section class="overflow-hidden py-10" id="gallery">
+      <div class="container">
+        <div class="row align-items-end mb-10 mt-5">
+          <div class="col-lg-8 text-custom">
+            <h1>Elevate your wardrobe with pieces that speak to your creativity.</h1>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <p class="fs-lg text-muted mb-1">Trusted by <span class="text-black">250k+</span> <span
+                class="d-block">customers
+                worldwide</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="container gallery-1" data-aos="fade-up">
+        <div class="row flex-nowrap align-items-end g-2 g-xl-5 mb-2 mb-xl-5"
+          data-bottom-top="transform: translateX(-25%)" data-top-bottom="transform: translateX(-40%)">
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd1.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd1.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd2.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd2.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd3.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd3.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd4.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd4.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd5.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd5.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd6.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd6.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd7.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd7.jpeg')">
+              </span>
+            </figure>          </div>
+        </div>
+        <div class="row flex-nowrap align-items-start g-2 g-xl-5" data-bottom-top="transform: translateX(-50%)"
+          data-top-bottom="transform: translateX(-35%)">
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd3.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd3.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd4.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd4.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd5.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd5.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd6.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd6.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd7.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd7.jpeg')">
+              </span>
+            </figure>          </div>
+          <div class="col-6 col-lg-5">
+            <figure class="media equal equal-16-10 media-image" 
+              data-bp='{"imgSrc": "./assets/images/products/prd8.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/products/prd8.jpeg')">
+              </span>
+            </figure>          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- reviews -->
+    <section class="py-10" id="reviews">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="row justify-content-center mb-5">
+              <div class="col-lg-8 text-center">
+                <span class="eyebrow mb-2 text-secondary">Customers love us</span>
+                <h2 class="fw-bold text-custom">Some words from our 1400+ customers.</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <ul class="list-unstyled border-bottom">
+                  <li class="border-top py-5">
+                    <div class="d-flex flex-wrap justify-content-between">
+                      <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="d-flex align-items-end mb-1">
+                          <span class="fs-3 fw-bold lh-1 mb-0 me-1">5.0</span>
+                          <span class="text-muted">out of 5</span>
+                        </div>
+                        <ul class="rating text-yellow">
+                          <li><i class="bi bi-star-fill"></i></li>
+                          <li><i class="bi bi-star-fill"></i></li>
+                          <li><i class="bi bi-star-fill"></i></li>
+                          <li><i class="bi bi-star-fill"></i></li>
+                          <li><i class="bi bi-star-fill"></i></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-8">
+                        <p class="mb-2 lead text-secondary">“Lorem, ipsum dolor sit, amet <span
+                            class="text-black">consectetur adipisicing</span> elit. Modi ullam in
+                          distinctio placeat,
+                          repellendus similique quod illo alias enim, asperiores veritatis, repudiandae.”</p>
+                        <span class="eyebrow">Michael Doe</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="border-top py-5">
+                    <div class="d-flex flex-wrap justify-content-between">
+                      <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="d-flex align-items-end mb-1">
+                          <span class="fs-3 fw-bold lh-1 mb-0 me-1">5.0</span>
+                          <span class="text-muted">out of 5</span>
+                        </div>
+                        <ul class="rating text-yellow">
+                          <li><i class="bi bi-star-fill"></i></li>
+                          <li><i class="bi bi-star-fill"></i></li>
+                          <li><i class="bi bi-star-fill"></i></li>
+                          <li><i class="bi bi-star-fill"></i></li>
+                          <li><i class="bi bi-star-fill"></i></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-8">
+                        <p class="mb-2 lead text-secondary">“Lorem, ipsum dolor sit, amet <span
+                            class="text-black">consectetur adipisicing</span> elit. Modi ullam in
+                          distinctio placeat,
+                          repellendus similique quod illo alias enim, asperiores veritatis, repudiandae.”</p>
+                        <span class="eyebrow">Michael Doe</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 mb-5">
+            <h2 class="fw-bold">Let's make something big. <span class="text-custom">Together.</span></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-10 bg-black inverted">
+      <div class="container">
+
+        <div class="row g-2 g-lg-6 mb-8">
+          <div class="col-lg-6">
+            <h4>5th Avenue, New York <br>USA 10255</h4>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <span class="h5">+1 9296345173</span> <br>
+            <span class="h5">+1 6314087402</span>
+          </div>
+        </div>
+        <div class="row mb-8">
+          <div class="col">
+            <hr>
+          </div>
+        </div>
+        <div class="row g-0 g-lg-6 text-secondary">
+          <div class="col-lg-6 text-lg-end order-lg-2 mb-2 mb-md-0">
+            <p><small>
+              Follow us on social media to stay updated <br> on the latest designs, promotions, and customer spotlights
+            </small></p>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://facebook.com" class="text-reset" target="_blank">
+                  <i class="bi bi-facebook fs-lg me-1"></i>facebook
+                </a>
+              </li>
+              <li class="list-inline-item ms-1">
+                <a href="https://instagram.com/nyliprinting" class="text-reset" target="_blank">
+                  <i class="bi bi-instagram fs-lg me-1"></i>instagram
+                </a>
+              </li>
+              <li class="list-inline-item ms-1">
+                <a href="https://tiktok.com" class="text-reset" target="_blank">
+                  <i class="fa-brands fa-tiktok fs-lg me-1"></i>tiktok
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <p><small>
+              Experience the joy of wearing personalized apparel that reflects your individuality. Join the NYLI Printing family today, and let's make your wardrobe truly unforgettable!
+            </small></p>
+            <p>Copyrights © 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+<!-- javascript -->
+<script src="./assets/js/vendor.bundle.js"></script>
+<script src="./assets/js/index.bundle.js"></script>
+
+</html>
