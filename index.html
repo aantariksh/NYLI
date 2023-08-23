@@ -60,7 +60,7 @@
         <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#services">Services</a></li>
         <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#gallery">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#reviews">Reviews</a></li>
+        <!-- <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#reviews">Reviews</a></li> -->
         <li class="nav-item"><a class="nav-link fs-4" data-bs-dismiss="offcanvas" href="#contact">Contact Us</a></li>
       </ul>
     </div>
@@ -167,7 +167,8 @@
             </div>
           </div>
         </div>
-        <figure class="background background-overlay" style="background-image: url('./assets/images/bg.png')">
+        <figure class="background background-overlay" 
+          style="background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(./assets/images/bg.png) no-repeat; background-size: cover;">
         </figure>
       </section>
 
@@ -369,7 +370,7 @@
     </section>    
 
     <!-- reviews -->
-    <section class="py-10" id="reviews">
+    <section class="py-10 d-none" id="reviews">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10">
@@ -442,8 +443,9 @@
     <section id="contact">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-8 mb-5">
+          <div class="col-lg-8 mb-5 text-center">
             <h2 class="fw-bold">Let's make something big. <span class="text-custom">Together.</span></h2>
+            <img src="./assets/images/vc.jpg" style="max-height: 300px; width: 50vh;">
           </div>
         </div>
       </div>
@@ -453,16 +455,18 @@
     <footer class="py-10 bg-black inverted">
       <div class="container">
 
-        <div class="row g-2 g-lg-6 mb-8">
+        <div class="row g-2 g-lg-6 mb-4">
           <div class="col-lg-6">
-            <h4>5th Avenue, New York <br>USA 10255</h4>
+            <img src="./assets/images/logo.png" class="mb-3 mb-lg-0" style="max-height: 50px;">
           </div>
           <div class="col-lg-6 text-lg-end">
-            <span class="h5">+1 9296345173</span> <br>
-            <span class="h5">+1 6314087402</span>
+            <span class="h5">
+              <a href="mailto:nyliprinting@gmail.com" class="text-custom">nyliprinting@gmail.com</a> <br>
+              Henry Yin:  <a href="tel:+19296345173" class="text-custom">+1 9296345173 </a>
+            </span>
           </div>
         </div>
-        <div class="row mb-8">
+        <div class="row mb-4">
           <div class="col">
             <hr>
           </div>
@@ -473,19 +477,19 @@
               Follow us on social media to stay updated <br> on the latest designs, promotions, and customer spotlights
             </small></p>
             <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="https://facebook.com" class="text-reset" target="_blank">
-                  <i class="bi bi-facebook fs-lg me-1"></i>facebook
+              <li class="list-inline-item mb-1 mb-lg-0">
+                <a href="https://facebook.com" class="text-custom" target="_blank">
+                  <i class="bi bi-facebook fs-lg me-1"></i>nyliprinting
                 </a>
               </li>
-              <li class="list-inline-item ms-1">
-                <a href="https://instagram.com/nyliprinting" class="text-reset" target="_blank">
-                  <i class="bi bi-instagram fs-lg me-1"></i>instagram
+              <li class="list-inline-item mb-1 mb-lg-0 ms-1">
+                <a href="https://instagram.com/nyliprinting" class="text-custom" target="_blank">
+                  <i class="bi bi-instagram fs-lg me-1"></i>@nyliprinting
                 </a>
               </li>
-              <li class="list-inline-item ms-1">
-                <a href="https://tiktok.com" class="text-reset" target="_blank">
-                  <i class="fa-brands fa-tiktok fs-lg me-1"></i>tiktok
+              <li class="list-inline-item mb-1 mb-lg-0 ms-1">
+                <a href="https://tiktok.com" class="text-custom" target="_blank">
+                  <i class="fa-brands fa-tiktok fs-lg me-1"></i>nyliprinting
                 </a>
               </li>
             </ul>
@@ -494,7 +498,10 @@
             <p><small>
               Experience the joy of wearing personalized apparel that reflects your individuality. Join the NYLI Printing family today, and let's make your wardrobe truly unforgettable!
             </small></p>
-            <p>Copyrights © 2023</p>
+            <p>Developed by 
+              <a href="https://tristatesdigital.com/" target="_blank" class="text-custom">Tristate Digital</a> & 
+              <a href="https://aantariksh.com/" target="_blank" class="text-custom">Aantariksh Developers</a>
+            </p>
           </div>
         </div>
       </div>
